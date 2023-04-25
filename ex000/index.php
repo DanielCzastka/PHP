@@ -7,7 +7,15 @@
     <title>PHP</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1> 
+        <?php 
+        echo "Hello Wold! \u{1F30E}.<br>";
+        print "I´m Here";
+        ?>
+    </h1>
+    <p>
+        Vamos nos livrar da maldição.
+    </p>
     
 </body>
 
