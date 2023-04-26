@@ -11,9 +11,15 @@
 <body>
     <h1>Dia e Horarios</h1>
     <?php
+    // Variavel
+    $nome = "Daniel";
+    // Constante -> Não muda e não pode mudar
+    const PAIS = "Brasil";
+
+    echo "Muito praser, meu nome é $nome! Eu moro no" . PAIS . "." ;
 
     date_default_timezone_set("America/Sao_Paulo");
-    echo "Hoje é dia " . date("d/M/Y");
+    echo " Hoje é dia " . date("d/M/Y");
     echo " e a hora atual é " . date("G:i:s");
     ?>
 </body>
